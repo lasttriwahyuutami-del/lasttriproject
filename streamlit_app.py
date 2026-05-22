@@ -9,7 +9,5 @@ import streamlit as st
 
 d = st.date_input("When's your birthday", datetime.date(2019, 7, 6))
 st.write("Your birthday is:", d)
-import streamlit as st
-st.image("sunrise.jpg", caption="Sunrise by the mountains")
 
 
